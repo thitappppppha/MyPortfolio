@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dlr="ltr">  <!--เติม dlr-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+       <!-- <a href="#" class="Logo">Thitapha</a> -->
+      
+        <div class="navbar">
+            <div class="Logo"><a href="index.html" >Thitapha</a></div>
+            <ul class="links">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills" >Skills</a></li>
+                <li><a href="education.html" >Academic journey</a></li>   
+                <li> <a href="Experience.html" >Experience</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="#about" >Services</a></li>
+            <li><a href="#skills" >Skill</a></li>
+            <li><a href="education.html" >Educations</a></li>   
+            <li> <a href="Experience.html" >Experience</a></li>
+            <li><a href="Contact" >Contact</a></li>
+                
+        </div>
+      
+
+        <!--nav menu-->
+    
+
+        <!--  nav อันเดิม 
+        <a href="#" class="active">Home</a>
+        <a href="#" >Services</a>
+        <a href="#" >Skill</a>
+        <a href="#" >Educations</a>
+        <a href="#" >Experience</a>
+        <a href="#" >Contact</a>   -->
+            
+    
+    </header>
+    
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick =function() {
+            dropDownMenu.classList.toggle('open')
+        }
+    </script> <!--จบเเก้ิ nev bar-->
+
+    <section class="home">
+        <div class="home-img"data-aos="fade-up" data-aos-duration="1500">
+            <img src="Assets/Images/avatar.png" alt="">
+        </div>
+        <div class="home-content" data-aos="fade-up" data-aos-duration="1500">
+            <h1>Hi it's <span>Thitapha</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I have a strong passion for UX/UI design and coding. I love creating user-friendly digital experiences that combine aesthetic design with practical functionality, and I’m constantly working to refine my skills and bring innovative ideas to life.</p>
+            <div class=" social-icons   ">
+                <a href="https://www.linkedin.com/in/thitapha-pinsiri-b967bb329/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://github.com/thitappppppha" target="_blank"><i class="ri-github-fill"></i></a>
+                <!--<a href="phone.html"><i class="ri-phone-fill"></i></a>-->
+                <a href="Email.html"><i class="ri-mail-fill"></i></a>
+            </div>
+            <a href="contact.html" class="btn">Contact me</a>
+        </div>
+    </section>  
+
+    <!--About section start-->
+    <section class="about" id="about" >
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"> <span  >About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="Assets/Images/avatar.png" alt="" data-aos="fade-right"data-aos-duration="1000">
+                </div>
+                <div class="right">
+                    <div class="topic"> Designing Is My Passion</div>
+                    <p data-aos="fade-left" data-aos-duration="1000">Hi, I’m Thitapha Pinsiri, a 23-year-old Electrical Engineering student at Thammasat University with a vibrant passion for UX/UI design and front-end development. I believe that technology should enhance our lives, and I’m dedicated to crafting user experiences that are not only functional but also delightful.
+                    </br></br>Collaboration is at the heart of what I do. I thrive in team environments, bringing strong communication skills to the table as I engage with clients to uncover their needs, objectives, and pain points. I enjoy leading discussions while also being an attentive listener, ensuring that every voice is heard in the decision-making process. </br></br> I’m always on the lookout for new challenges that push my boundaries and help me grow as a designer and developer. Let’s connect and explore how we can create meaningful solutions together!
+                
+                </p>
+                    <div class="button" data-aos="fade-left" data-aos-duration="1000">
+                        <a href="Resume-Thitapha Pinsiri 3.pdf" target="_blank" class="btn">OPEN RESUME</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- My skill section start-->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"data-aos="fade-up" data-aos-duration="1500"> <span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">
+                        Skills Reflects Our Knowledge
+                    </div>
+                    <p data-aos="fade-right"data-aos-duration="1000">I am proficiex nt in HTML and CSS, enabling me to create visually appealing and well-structured web pages. My foundational knowledge of JavaScript and Python allows me to add interactivity and functionality to my projects. I utilize Git and GitHub for version control, ensuring efficient collaboration and project management. Additionally, I leverage Figma to design user interfaces, translating ideas into engaging and user-friendly experiences. With this diverse skill set, I am equipped to tackle various aspects of web development and design, continuously striving to enhance my expertise.
+                    </p>
+                    <div class="experience">
+                        <div class="num">1</div>
+                        <div class="exp">
+                            Year of </br>
+                            Experience
+                        </div>
+
+                    </div>
+                </div>
+                <div class="boxes" data-aos="fade-left" data-aos-duration="1000" >
+                    <div class="box">
+                        <div class="topic">HTML</div>
+                        <div class="per"><i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-line"></i></div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">CSS</div>
+                        <div class="per"><i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i></div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">JavaScript</div>
+                        <div class="per"><i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i></div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Python</div>
+                        <div class="per"><i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i>
+                            <i class="ri-star-line"></i></div>
+                    </div>
+                    <div class="box">
+                        <div class="topic">Figma</div>
+                        <div class="per"><i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-line"></i></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"> </script>
+
+
+    <!--ส่วนของ go to top -->
+    <a href="#" class="goTopBtn"><i class="ri-arrow-up-double-line"></i></a>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="https://www.linkedin.com/in/thitapha-pinsiri-b967bb329/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://github.com/thitappppppha" target="_blank"><i class="ri-github-fill"></i></a>
+                <!--<a href="phone.html"><i class="ri-phone-fill"></i></a>-->
+                <a href="Email.html"><i class="ri-mail-fill"></i></a>
+                
+            </div>
+            
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Thitapha</span></p>
+        </div>
+    </footer>
+   
+
+</body>
+</html>
+
+<!--push-->
