@@ -1123,7 +1123,7 @@ a.card:hover h3{
     background: linear-gradient(45deg,
                                 rgba(239,185,11,0.75) 0%,
                                 rgba(125, 107, 53, 0.75)100%),
-     url('Assets/Images/ภาพถ่ายหน้าจอ 2567-11-02 เวลา 00.09.06-modified.png') no-repeat center center;
+     url('../Images/automated-agriculture.jpg-modified.webp') no-repeat center center;
      background-size: cover;
      cursor: pointer;
 }
@@ -1132,7 +1132,7 @@ a.card:hover h3{
     background: linear-gradient(45deg,
                                 rgba(239,185,11,0.75) 0%,
                                 rgba(125, 107, 53, 0.75)100%),
-     url('Assets/Images/ภาพถ่ายหน้าจอ 2567-10-12 เวลา 23.36.02-modified.png') no-repeat center center;
+     url('Assets/Images/automated-agriculture.jpg-modified.webp') no-repeat center center;
      background-size: cover;
      cursor: pointer;
 }
