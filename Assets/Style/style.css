@@ -1046,7 +1046,10 @@ a.card{
     text-align: center;
     font-size: 1.1rem;
     
-    
+      
+}
+.card .p2{
+    line-height: 1.4rem;
 }
 
 .card:hover i,    /*important hover*/
@@ -1132,7 +1135,7 @@ a.card:hover h3{
     background: linear-gradient(45deg,
                                 rgba(239,185,11,0.75) 0%,
                                 rgba(125, 107, 53, 0.75)100%),
-     url('Assets/Images/automated-agriculture.jpg-modified.webp') no-repeat center center;
+     url('../Images/pngimg.com - world_map_PNG25.png') no-repeat center center;
      background-size: cover;
      cursor: pointer;
 }
